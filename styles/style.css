@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+nav ul {
+    display: flex;
+
+}
+
+li {
+    list-style: none;
+
+}
