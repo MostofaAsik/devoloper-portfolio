@@ -2,18 +2,133 @@
     margin: 0;
 }
 
+.header {
+    background: #FFF8F3;
+    background: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
     margin: 50px 200px;
 }
 
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
 nav ul {
     display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+.btn-primary {
+    height: 64px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 18px 36px;
+    outline: none;
+    border: none;
 
 }
 
-li {
-    list-style: none;
+.banner {
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
 
+.b-title {
+    font-weight: 700;
+    font-size: 85px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.b-sub-title {
+    font-weight: 600;
+    font-size: 45px
+}
+
+.b-description {
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.btn2 {
+    padding: 5px 20px;
+    margin-left: 30px;
+    height: 64px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    outline: none;
+    border: none;
+}
+
+main {
+    max-width: 1154px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-top: 60px;
+}
+
+.section {
+    background: #FFF8F3;
+    padding: 0 20px;
+    text-align: center;
+    height: 500px;
+}
+
+.s-header {
+    font-weight: 700;
+    font-size: 45px;
+
+    padding-top: 130px;
+}
+
+.s-description {
+    font-size: 28px;
+    color: #757575;
+
+    margin-top: 30px;
+    line-height: 30px;
+    padding: 0 80px;
+}
+
+.s-footer {
+    margin-top: 30px;
+    margin-bottom: 220px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.i-title {
+    font-size: 20px;
+    color: #757575;
+}
+
+.i-description {
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
 }
